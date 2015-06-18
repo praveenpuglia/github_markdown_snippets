@@ -2,16 +2,28 @@
 Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tag names with a prefix.
 
 ## Installation
+
+### Via Package Control
+The easiest way is to install it via [Package Control](https://packagecontrol.io/).
+
+- Go to **Command Palette** 
+- Select **Package Control : Install Package**
+- Search for **Github Markdown Snippets**
+
+### Manual
+
 - Clone the repository or download the [ZIP](https://github.com/praveenpuglia/github-markdown-snippets/archive/master.zip)
 - Extract the archive
 - Put it in your **Packages**( `Preferences > Browse Packages...` ) directory.  
 
 ## Usage
-Prefix an HTML tag you know with an **m** in your **.md** file and hit `TAB`. Examples - 
+Prefix an HTML tag you know with an **m** in your **.md** file and hit `TAB`. Examples :
+
 - `mh1`    - for Heading 1  
 - `mimg`   - for an image 
 - `ma`     - for a link
 - `mtable` - for a table
+
 and so on...
 
 Long tags like `blockquote` are shortened for power use.
