@@ -67,7 +67,7 @@ mol     // Ordered List
 mul     // Unordered List
 mtable  // Table
 ```
-1. First Item 
+1. First Item
 2. Second Item
 3. Third Item
 
