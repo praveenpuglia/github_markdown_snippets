@@ -1,7 +1,12 @@
 # GitHub Markdown Snippets
-Helpful snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tag names with a twist.
+Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tag names with a prefix.
 
-##Usage
+## Installation
+- Clone the repository or download the [ZIP](https://github.com/praveenpuglia/github-markdown-snippets/archive/master.zip)
+- Extract the archive
+- Put it in your **Packages**( `Preferences > Browse Packages...` ) directory.  
+
+## Usage
 Prefix an HTML tag you know with an **m** in your **.md** file and hit `TAB`. Examples - 
 - `mh1`    - for Heading 1  
 - `mimg`   - for an image 
@@ -80,6 +85,7 @@ mtable  // Table
 | ------------- | ------------- |
 | Cell 1-1 | Cell 1-2 |
 | Cell 2-1 | Cell 2-2 |
+
 
 
 
