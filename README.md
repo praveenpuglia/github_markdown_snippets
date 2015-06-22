@@ -33,25 +33,25 @@ Long tags like `blockquote` are shortened for power use.
 ##List of Tab Triggers
 
 ```
-mh1 // Heading 1
-mh2 // Heading 2
-mh3 // Heading 3
-mh4 // Heading 4
-mh5 // Heading 5
-mh6 // Heading 6
+mh1     // Heading 1
+mh2     // Heading 2
+mh3     // Heading 3
+mh4     // Heading 4
+mh5     // Heading 5
+mh6     // Heading 6
 ```
 # Heading 1  
 ## Heading 2  
 ### Heading 3  
 #### Heading 4  
-##### Heading 5          
+##### Heading 5
 ###### Heading 6
 ```
-mb       // Bold
-mi       // Italic
-mbq      // Blockquote
-mstrike  // Strikeout
-mhr      // Horizontal Rule, Divider
+mb         // Bold
+mi         // Italic
+mbq        // Blockquote
+mstrike    // Strikeout
+mhr        // Horizontal Rule, Divider
 ```
 **Bold Text** 
 
@@ -65,8 +65,8 @@ mhr      // Horizontal Rule, Divider
 ---
 
 ```
-mcode  // Inline Code
-mpre   // Code Block with language based highlighting.
+mcode    // Inline Code
+mpre     // Code Block with language based highlighting.
 ```
 `Inline Code Snippet`
 
@@ -74,26 +74,29 @@ mpre   // Code Block with language based highlighting.
 var message = "Code Block";
 alert( message );
 ```
+
 ```
-ma    // Anchor
-mimg  // Image
+ma      // Anchor
+mimg    // Image
 ```
 [Link Title](Link) 
 
 ![Github Logo](https://wasin.io/wp-content/uploads/2015/05/showimage.png) 
 
 ```
-mol     // Ordered List
-mul     // Unordered List
-mtable  // Table
+mol       // Ordered List
+mul       // Unordered List
+mtable    // Table
 ```
+
 1. First Item
 2. Second Item
 3. Third Item
 
--  I 
--  Love
--  Markdown
+
+- I
+- Love
+- Markdown
 
 | Column 1 | Column 2 |
 | ------------- | ------------- |
