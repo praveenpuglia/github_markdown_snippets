@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-- ${1: I} 
-- ${2: Love}
-- ${3: Markdown}
+- ${1:I} 
+- ${2:Love}
+- ${3:Markdown}
 ${0}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
