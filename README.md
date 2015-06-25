@@ -19,6 +19,8 @@ The easiest way is to install it via [Package Control](https://packagecontrol.io
 - Put it in your **Packages**( `Preferences > Browse Packages...` ) directory.  
 
 ## Usage
+A better guide is available [here](http://praveenpuglia.github.io/github_markdown_snippets) 
+
 Prefix an HTML tag you know with an **m** in your **.md** file and hit `TAB`. Examples :
 
 - `mh1`    - for Heading 1  
