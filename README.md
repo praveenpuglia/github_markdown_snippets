@@ -1,7 +1,7 @@
 # GitHub Markdown Snippets
 Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tag names with a prefix.
 
-![](https://img.shields.io/badge/Version-1.0.1-blue.svg)
+![](https://img.shields.io/badge/Version-1.1.0-brightgreen.svg)
 
 ## Installation
 
