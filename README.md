@@ -8,7 +8,7 @@ Helpful Sublime Text snippets to get you started with GitHub flavored Markdown b
 ### Via Package Control
 The easiest way is to install it via [Package Control](https://packagecontrol.io/).
 
-- Go to **Command Palette** 
+- Go to **Command Palette** `Ctrl + Shift + P` or `⌘ + Shift + P`
 - Select **Package Control : Install Package**
 - Search for **Github Markdown Snippets**
 
