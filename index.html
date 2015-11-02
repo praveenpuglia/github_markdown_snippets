@@ -1,0 +1,186 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Markdown Snippets</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+    <a href="https://github.com/praveenpuglia/github_markdown_snippets"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <div class="container">
+        <div class="page-header">
+            <h1><a href="https://github.com/praveenpuglia/github_markdown_snippets">GitHub Markdown Snippets <small>GitHub flavored Markdown with plain'ol HTML knowledge! Boom!</small></a></h1>
+            <p class="clearfix">
+                <img src="https://img.shields.io/badge/Version-1.1.0-brightgreen.svg" alt="Version : 1.1.0">
+                <iframe class="pull-right" src="https://ghbtns.com/github-btn.html?user=praveenpuglia&repo=github_markdown_snippets&type=star&count=false&size=large" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+            </p>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>Installation</h2>
+                <hr>
+                <p>
+                    Easiest way to install is via <strong>Package Control</strong>.
+                    <ul>
+                        <li>Go to <strong>Command Palette</strong>(<code>Ctrl + Shift + P</code> OR <code>Cmd + Shift + P</code>)</li>
+                        <li>Select <strong>Package Control : Install Package</strong></li>
+                        <li>Search for <strong>Github Markdown Snippets</strong></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>Usage</h2>
+                <p class="alert alert-info"><strong>Heads Up!</strong> Output on this page are Bootstrap styled. </p>
+                <hr>
+                <p>All you have do is prefix any HTML tag name you know with an <strong>"m"</strong> and hit tab. Long tag names are shortened for better usage.</p>
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th><code>Tab</code> Trigger</th>
+                            <th>Markdown Equivalent</th>
+                            <th>Output</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>mi</td>
+                            <td>*Italic Text* </td>
+                            <td><i>Italic Text</i></td>
+                        </tr>
+                        <tr>
+                            <td>mb</td>
+                            <td>**Bold Text** </td>
+                            <td><strong>Bold Text</strong></td>
+                        </tr>
+                        <tr>
+                            <td>mbq</td>
+                            <td> > Put a nice, beautiful <br> > quote here...</td>
+                            <td><blockquote>Put a nice beautiful quote here...</blockquote></td>
+                        </tr>
+                        <tr>
+                            <td>mstrike</td>
+                            <td>~~Strike Through~~</td>
+                            <td><s>Strike Through</s></td>
+                        </tr>
+
+                        <tr>
+                            <td>mh1</td>
+                            <td># Heading 1</td>
+                            <td><h1>Heading 1</h1></td>
+                        </tr>
+
+                        <tr>
+                            <td>mh2</td>
+                            <td>## Heading 2</td>
+                            <td><h2>Heading 2</h2></td>
+                        </tr>
+                        <tr>
+                            <td>mh3</td>
+                            <td>### Heading 3</td>
+                            <td><h3>Heading 3</h3></td>
+                        </tr>
+                        <tr>
+                            <td>mh4</td>
+                            <td>#### Heading 4</td>
+                            <td><h4>Heading 4</h4></td>
+                        </tr>
+                        <tr>
+                            <td>mh5</td>
+                            <td>##### Heading 5</td>
+                            <td><h5>Heading 5</h5></td>
+                        </tr>
+                        <tr>
+                            <td>mh6</td>
+                            <td>###### Heading 6</td>
+                            <td><h6>Heading 6</h6></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>mul</td>
+                            <td>- I  <br>- Love <br>- Markdown</td>
+                            <td>
+                                <ul>
+                                    <li>I</li>
+                                    <li>Love</li>
+                                    <li>Markdown</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>mul</td>
+                            <td>1. First Item  <br>2. Second Item <br>3. Third Item</td>
+                            <td>
+                                <ol>
+                                    <li>First Item</li>
+                                    <li>Second Item</li>
+                                    <li>Third Item</li>
+                                </ol>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>mcode</td>
+                            <td>`Inline Code Snippet`</td>
+                            <td><code>Inline Code Snippet</code></td>
+                        </tr>
+
+                        <tr>
+                            <td>mpre</td>
+                            <td>```language <br> Multi-line Code<br>``` </td>
+                            <td><pre>Multi-line Code</pre></td>
+                        </tr>
+
+                        <tr>
+                            <td>ma</td>
+                            <td>[Link Title](URL)</td>
+                            <td><a href="#">Link Title</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>mimg</td>
+                            <td>![Image Title](Image Source)</td>
+                            <td><img src="https://camo.githubusercontent.com/d612efdc6605e0a837aae78c8acfd4ea44f9f522/68747470733a2f2f776173696e2e696f2f77702d636f6e74656e742f75706c6f6164732f323031352f30352f73686f77696d6167652e706e67" alt="Image Title"></td>
+                        </tr>
+
+                        <tr>
+                            <td>mtable</td>
+                            <td>
+                                | Column 1 | Column 2 | <br>
+                                | -------- | -------- | <br>
+                                | Cell 1-1 | Cell 1-2 | <br>
+                                | Cell 2-1 | Cell 2-2 |
+                            </td>
+                            <td>
+                                <table class="table table-striped table-bordered"><thead>
+                                <tr>
+                                <th>Column 1</th>
+                                <th>Column 2</th>
+                                </tr>
+                                </thead><tbody>
+                                <tr>
+                                <td>Cell 1-1</td>
+                                <td>Cell 1-2</td>
+                                </tr>
+                                <tr>
+                                <td>Cell 2-1</td>
+                                <td>Cell 2-2</td>
+                                </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>mhr</td>
+                            <td>---</td>
+                            <td><hr></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
