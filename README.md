@@ -1,14 +1,14 @@
 # GitHub Markdown Snippets
-Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tag names with a prefix.
+Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tags.
 
-![](https://img.shields.io/badge/Version-1.1.0-brightgreen.svg)
+![](https://img.shields.io/badge/Version-2.0.0-brightgreen.svg)
 
 ## Installation
 
 ### Via Package Control
 The easiest way is to install it via [Package Control](https://packagecontrol.io/).
 
-- Go to **Command Palette** `Ctrl + Shift + P` or `⌘ + Shift + P`
+- Go to **Command Palette** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 - Select **Package Control : Install Package**
 - Search for **Github Markdown Snippets**
 
@@ -19,28 +19,21 @@ The easiest way is to install it via [Package Control](https://packagecontrol.io
 - Put it in your **Packages**( `Preferences > Browse Packages...` ) directory.  
 
 ## Usage
-A better guide is available [here](http://praveenpuglia.github.io/github_markdown_snippets) 
+A consolidated guide is available [here](http://praveenpuglia.github.io/github_markdown_snippets). 
 
-Prefix an HTML tag you know with an **m** in your **.md** file and hit `TAB`. Examples :
+Type a tag name and hit tab. That's it! :relaxed:
 
-- `mh1`    - for Heading 1  
-- `mimg`   - for an image 
-- `ma`     - for a link
-- `mtable` - for a table
+:snowflake: Long tags like `blockquote` are shortened for power use.
 
-and so on...
-
-Long tags like `blockquote` are shortened for power use.
-
-##List of Tab Triggers
+## List of Tab Triggers
 
 ```
-mh1     // Heading 1
-mh2     // Heading 2
-mh3     // Heading 3
-mh4     // Heading 4
-mh5     // Heading 5
-mh6     // Heading 6
+h1     // Heading 1
+h2     // Heading 2
+h3     // Heading 3
+h4     // Heading 4
+h5     // Heading 5
+h6     // Heading 6
 ```
 # Heading 1  
 ## Heading 2  
@@ -49,11 +42,11 @@ mh6     // Heading 6
 ##### Heading 5
 ###### Heading 6
 ```
-mb         // Bold
-mi         // Italic
-mbq        // Blockquote
-mstrike    // Strikeout
-mhr        // Horizontal Rule, Divider
+b         // Bold
+i         // Italic
+bq        // Blockquote
+strike    // Strikeout
+hr        // Horizontal Rule, Divider
 ```
 **Bold Text** 
 
@@ -67,8 +60,8 @@ mhr        // Horizontal Rule, Divider
 ---
 
 ```
-mcode    // Inline Code
-mpre     // Code Block with language based highlighting.
+code    // Inline Code
+pre     // Code Block with language based highlighting.
 ```
 `Inline Code Snippet`
 
@@ -78,17 +71,17 @@ alert( message );
 ```
 
 ```
-ma      // Anchor
-mimg    // Image
+a      // Anchor
+img    // Image
 ```
 [Link Title](Link) 
 
 ![Github Logo](https://wasin.io/wp-content/uploads/2015/05/showimage.png) 
 
 ```
-mol       // Ordered List
-mul       // Unordered List
-mtable    // Table
+ol       // Ordered List
+ul       // Unordered List
+table    // Table
 ```
 
 1. First Item
