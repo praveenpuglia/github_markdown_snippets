@@ -1,12 +1,9 @@
 <snippet>
     <content><![CDATA[
-1. ${1:First Item}
-2. ${2:Second Item}
-3. ${3:Third Item}
-${0}
-]]></content>
+##### ${1:Heading 5}
+${0}]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>mol</tabTrigger>
+    <tabTrigger>h5</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html.markdown</scope>
 </snippet>
