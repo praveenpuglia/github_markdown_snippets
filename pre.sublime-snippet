@@ -1,13 +1,12 @@
 <snippet>
     <content><![CDATA[
-| ${1:Column 1} | ${2:Column 2} |
-| ------------- | ------------- |
-| ${3:Cell 1-1} | ${4:Cell 1-2} |
-| ${5:Cell 2-1} | ${6:Cell 2-2} |
+```${1:language}
+${2:Multi-line Code}
+```
 ${0}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>mtable</tabTrigger>
+    <tabTrigger>pre</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html.markdown</scope>
 </snippet>
