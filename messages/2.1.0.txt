@@ -1,0 +1,42 @@
+✿ Version 2.1.0
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
+This version comes up with instructions to solve the tab trigger issues when used with Emmet.
+Due to [this](https://github.com/sergeche/emmet-sublime#tab-key-handler), some tab triggers 
+result in html elements instead of proper Markdown snippets.
+
+To get around the problem, go to 
+Preferences > Package Settings > Emmet > User Settings 
+and add the following in your settings file.
+
+```
+{
+    "disable_tab_abbreviations_for_scopes": "text.html.markdown"
+}
+```
+
+This should let markdown snippets take precedence over emmet's tab to expand abbreviations feature and provide correct snippets.
+
+Note that any tab trigger not set by this plugin will be converted to HTML tags which is convenient for people
+who want to use HTML tags inside Markdown files.
+
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
+List of Tab Triggers
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
+h1              // Heading 1
+h2              // Heading 2
+h3              // Heading 3
+h4              // Heading 4
+h5              // Heading 5
+h6              // Heading 6
+b               // Bold
+i               // Italic
+bq              // Blockquote
+strike          // Strikeout
+hr              // Horizontal Rule, Divider
+code            // Inline Code
+pre             // Code Block with language based highlighting.
+a               // Anchor
+img             // Image
+ol              // Ordered List
+ul              // Unordered List
+table           // Table

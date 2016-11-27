@@ -18,6 +18,26 @@ The easiest way is to install it via [Package Control](https://packagecontrol.io
 - Extract the archive
 - Put it in your **Packages**( `Preferences > Browse Packages...` ) directory.  
 
+### Using with Emmet
+If you have Emmet installed, tab triggers may not function as expected due to [this](https://github.com/sergeche/emmet-sublime#tab-key-handler).
+
+To get around the problem, go to 
+```
+Preferences > Package Settings > Emmet > User Settings 
+```
+and add the following in your settings file.
+
+```
+{
+    "disable_tab_abbreviations_for_scopes": "text.html.markdown"
+}
+```
+
+This should let markdown snippets take precedence over emmet's tab to expand abbreviations feature and provide correct snippets.
+
+Note that any tab trigger not set by this plugin will be converted to HTML tags which is convenient for people
+who want to use HTML tags inside Markdown files.
+
 ## Usage
 A consolidated guide is available [here](http://praveenpuglia.github.io/github_markdown_snippets). 
 
