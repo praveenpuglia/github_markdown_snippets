@@ -96,7 +96,7 @@ img    // Image
 ```
 [Link Title](Link) 
 
-![Github Logo](https://wasin.io/wp-content/uploads/2015/05/showimage.png) 
+![Puppies are cute](https://c1.staticflickr.com/5/4112/5170590074_714d36db83_b.jpg) 
 
 ```
 ol       // Ordered List
