@@ -1,8 +1,6 @@
 # GitHub Markdown Snippets
 Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tags.
 
-![](https://img.shields.io/badge/Version-2.0.0-brightgreen.svg)
-
 ## Installation
 
 ### Via Package Control
